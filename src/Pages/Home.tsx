@@ -1,5 +1,6 @@
 import * as React from "react";
 function Home() {
-  return <div>Hello World</div>;
+  let value = "Hello World";
+  return <div>{value}</div>;
 }
 export default Home;
